@@ -1,4 +1,6 @@
+import {Ingredient} from "../shared/ingredient";
 export class Recipe {
 
-  constructor(public name, public description, public imegPath){};
+  constructor(public name: string, public description: string, public imegPath: string, public ingredients: Ingredient[]) {
+  };
 }
